@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping bag</title>
+</head>
+<body>
+<header>
+    <div class="wrap-header">
+        <div id="menuToggle">
+            <div class="upper-header">
+                <img class="large-logo" src="img/Template.png" alt="logo">
+                <img class="small-logo" src="img/tl.png" alt="logo">
+                <div class="wrap-head-right">
+                    <p class="sign-up">E-mail sign up</p>
+                    <p class="bag">Bag</p>
+                    <p class="basket__price"></p>
+                    <p class="basket__count">0</p>
+                    <input class="switch-menu" type="checkbox">
+                    <img class="burger" src="img/ico_menu.png" alt="">
+                    <img class="closed" src="img/ico_close.png" alt="">
+                    <ul id="menu2">
+                        <li class="nav-list"><a class="nav-link" href="#">Women</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">Men</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">HandBags</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">Accessories</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">Sale</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">New Arrivals</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">Clearance</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#">Store Locator</a></li>
+                        <form class="header-search">
+                            <input type="text" placeholder="Style Name" required>
+                            <button type="submit"></button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="down-header">
+            <ul class="menu">
+                <li class="nav-list"><a class="nav-link" href="#">Women</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">Men</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">HandBags</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">Accessories</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">Sale</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">New Arrivals</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">Clearance</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">Store Locator</a></li>
+                <form class="header-search tablet-layout">
+                    <input class="search" type="text" placeholder="Style Name" required>
+                    <button class="button-search" type="button"></button>
+                </form>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="shoppingBag-text">
+    <span class="back-to-catalog-text-bag">Shopping bag</span>
+</div>
+<main>
+    <div class="bag-items">
+        <div class="item-bag">
+            <div class="item-wrap">
+                <img class="image" src="img/item9.png" alt="">
+                <div class="bag-hover">
+                    <span class="hover-text">View item</span>
+                </div>
+            </div>
+            <div class="bag-description-block">
+                <p class="description-bag">Only Skinny Jeans</p>
+                <p class="bag-price">390.25</p>
+                <div class="item-bag-parameters">
+                    <p>Color: Phillipa wash</p>
+                    <p>Size: UK 17</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <p class="removeBag-text">Remove item</p>
+            </div>
+        </div>
+        <div class="item-bag">
+            <div class="item-wrap">
+                <img class="image" src="img/item1.png" alt="">
+                <div class="bag-hover">
+                    <span class="hover-text">View item</span>
+                </div>
+            </div>
+            <div class="bag-description-block">
+                <p class="description-bag">Paul & Joe Sister Jumper with Neon Trims</p>
+                <p class="bag-price">400.75</p>
+                <div class="item-bag-parameters">
+                    <p>Color: Blue</p>
+                    <p>Size: UK 18</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <p class="removeBag-text">Remove item</p>
+            </div>
+        </div>
+        <div class="item-bag">
+            <div class="item-wrap">
+                <img class="image" src="img/item8.png" alt="">
+                <div class="bag-hover">
+                    <span class="hover-text">View item</span>
+                </div>
+            </div>
+            <div class="bag-description-block">
+                <p class="description-bag">Boyfriend T-Shirt with Bohemian Print</p>
+                <p class="bag-price">360.00</p>
+                <div class="item-bag-parameters">
+                    <p>Color: Black</p>
+                    <p>Size: UK 18</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <p class="removeBag-text">Remove item</p>
+            </div>
+        </div>
+        <div class="item-bag">
+            <div class="item-wrap">
+                <img class="image" src="img/item4.png" alt="">
+                <div class="bag-hover">
+                    <span class="hover-text">View item</span>
+                </div>
+            </div>
+            <div class="bag-description-block">
+                <p class="description-bag">Turtle Neck Jumper in Rib</p>
+                <p class="bag-price">489.50</p>
+                <div class="item-bag-parameters">
+                    <p>Color: Green</p>
+                    <p>Size: UK 19</p>
+                    <p>Quantity: 1</p>
+                </div>
+                <p class="removeBag-text">Remove item</p>
+            </div>
+        </div>
+        <div class="afterBuy"><p>Thank you for your purchase</p></div>
+        <div class="after-empty"><p>Your shopping bag is empty. Use Catalog to add new items</p></div>
+    </div>
+    <div class="advert-bar">
+        <p class="advert-bar-text">You've qualified for Free UK Next Day Delivery on Your order. Don't forget to enter the code <span class="nextday">nextday</span> at checkout</p>
+    </div>
+    <div class="bag-down">
+        <div class="emptyBag">
+            <p class="emptyBag-text">Empty bag</p>
+        </div>
+        <div class="submit-button">
+            <button class="buy">Buy now</span></button>
+        </div>
+        <div class="total">
+            <p class="total-text">Total Cost</p>
+            <p class="basket__price bold">0</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="upper-footer">
+        <div class="upper-footer-left">
+            <div class="navigation">
+                <p class="footer-text">Quick Links</p>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="">Store locator</a></li>
+                    <li><a class="footer-link" href="">Gift cards</a></li>
+                    <li><a class="footer-link" href="">Size guide</a></li>
+                    <li><a class="footer-link" href="">About us</a></li>
+                    <li><a class="footer-link" href="">Support</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <p class="footer-text">Customer Care</p>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="">Customer service</a></li>
+                    <li><a class="footer-link" href="">Track my order</a></li>
+                    <li><a class="footer-link" href="">Return policy</a></li>
+                    <li><a class="footer-link" href="">Shipping & delivery</a></li>
+                    <li><a class="footer-link" href="">Contact us</a></li>
+                    <li><a class="footer-link" href="">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="upper-footer-right">
+            <div class="questions">
+                <p class="footer-text">Questions</p>
+                <p class="tweeter-text footer-link">Tweet us</p><span class="template"> @template</span>
+            </div>
+            <div class="phone">
+                <p class="footer-text">Order by phone</p>
+                <p class="phone-text">8-800-409-47-12</p>
+            </div>
+            <div class="aboutUs">
+                <p class="aboutUs-text hide2">We have our own delivery service which operates in 23 major European cities.
+                    Delivery time - 3-5 days.</p>
+                <div class="socials">
+                    <a href=""><img class="socials-logo" src="img/fb.png" alt=""></a>
+                    <a href=""><img class="socials-logo" src="img/twi.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-footer">
+        <div class="footer-wrap">
+            <div class="down-footer-left"><p>&copy; 2010-2015, The Template Group inc.</p></div>
+            <div class="share">
+                <p>Share</p>
+                <span class="counter">1 437</span>
+            </div>
+        </div>
+        <div class="down-footer-right">
+            <div class="links">
+                <p class="down-footer-right-text">Legal notice</p>
+                <p class="down-footer-right-text">Privacy policy</p>
+                <p class="down-footer-right-text">Site map</p>
+            </div>
+            <div class="down-footer-right-icons hide2">
+                <a href=""><img class="socials-logo hide-desktop move-logo" src="img/fb.png" alt=""></a>
+                <a href=""><img class="socials-logo hide-desktop" src="img/twi.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/shopping-bag.js"></script>
+<script src="js/common.js"></script>
+</html>
